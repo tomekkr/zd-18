@@ -10,25 +10,25 @@ public class CalandarConverter {
     static String convertDayToString(int dayNumber) {
         String dayName;
         switch (dayNumber) {
-            case 1:
+            case MONDAY:
                 dayName = "Poniedziałek";
                 break;
-            case 2:
+            case TUESDAY:
                 dayName = "Wtorek";
                 break;
-            case 3:
+            case WEDNESDAY:
                 dayName = "Środa";
                 break;
-            case 4:
+            case THURSDAY:
                 dayName = "Czwartek";
                 break;
-            case 5:
+            case FRIDAY:
                 dayName = "Piątek";
                 break;
-            case 6:
+            case SATURDAY:
                 dayName = "Sobote";
                 break;
-            case 7:
+            case SUNDAY:
                 dayName = "Niedziela";
                 break;
             default:
